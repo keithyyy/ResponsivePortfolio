@@ -1,6 +1,7 @@
 .navbar-light .navbar-brand {
-    color: purple;
+    color: #ffffff;
     font-size: 40px !important;
     font-family: 'Playfair Display', serif !important;
+    background-color: rgb(105, 214, 241)
 
 }
