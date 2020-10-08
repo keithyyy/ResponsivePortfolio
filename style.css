@@ -1,3 +1,9 @@
+h1 {
+    font-family: 'Playfair Display', serif !important;
+    color: rgb(105, 214, 241);
+}
+
+
 .navbar-light .navbar-brand {
     color: #ffffff;
     font-size: 40px !important;
