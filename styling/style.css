@@ -17,3 +17,13 @@ body {
     background-repeat: repeat;
     background-size: 800px;
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background: rgb(98, 104, 105);
+ border-top: 5px solid rgb(105, 214, 241);   
+}
