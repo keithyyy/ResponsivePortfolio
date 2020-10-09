@@ -11,3 +11,9 @@ h1 {
     background-color: rgb(105, 214, 241)
 
 }
+
+body {
+    background-image: url(chevron.png);
+    background-repeat: repeat;
+    background-size: 800px;
+}
