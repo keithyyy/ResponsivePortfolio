@@ -5,9 +5,11 @@ Using Bootstrap CSS to create a mobile responsive portfolio
 
 In this project, I am assigned to use the resources and capabilities of Bootstrap to build a portfolio that's responsive to certain device screens. 
 
-From the latest available version Bootstrap, my portfolio is supposed to respond to dimensions of 992px, 768px and 400px. 
+From the latest available version Bootstrap, my portfolio is supposed to respond to dimensions of 992px, 768px and 400px. The goal is to used as little external CSS as possible, and have Bootstrap do most of the work.
 
-This portfolio has 3 working pages: About, Portfolio and Contact (which are all accessible using a **Navbar**)
+This portfolio has 3 working pages: About, Portfolio and Contact (which are all accessible using a **Navbar**).
+The 3 working pages work off of the same 'style.css' file. 
+    The CSS file has only the background image, footer, font & button styles + the media queries. 
 
 The main content of each page sits within a bootstrap 'Card' component.
 
