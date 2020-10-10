@@ -37,3 +37,32 @@ body {
     border-color: white;
     
 }
+
+/* Media Queries */
+
+/* xs */
+@media (max-width: 400px) {
+    img {
+        width: 100px;
+        height: auto;
+    }
+
+    .card {
+        width: 20rem !important; 
+    }
+
+
+
+}
+/* sm */
+@media (max-width: 770px) {
+    img {
+        width: 350px;
+        height:auto;
+    }
+    
+    .card {
+        width: 30rem !important;
+    }
+
+
