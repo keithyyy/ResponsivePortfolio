@@ -14,6 +14,8 @@
   </head>
 
   <body>
+
+    <!-- Top bar Menu -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Keith Crooc</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,13 +30,24 @@
       </div>
     </nav>
 
-    <div class="card mx-5 my-5" style="width: 35rem;">
-      <div class="card-body pb-5">
-        <h1 class="card-title font-family-serif">About Me</h1>
-        <hr class="mt-4 mb 2">
-        <img src="https://images.unsplash.com/photo-1587931470103-9d251cc86373?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9" class="float-left mr-4">
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="container">
+      <div class="card mx-5 my-5" style="width: 35rem;">
+        <div class="card-body pb-5">
+          <h1 class="card-title font-family-serif">About Me</h1>
+          <hr class="mt-4 mb 2">
+          <img src="styling/HeadshotSQ.jpg" class="float-left mr-4 mb-1 rounded" id=profilePhoto>
+          <p class="card-text">Hey there! 👋</p>
+          <p class="card-text">I'm Keith Crooc. </p>
+          <p class="card-text">I currently juggle a few hats as I enjoy planning and executing a variety of projects. I work as a Growth Specialist for a start-up in the job advertising space while simultaneosly aspiring to be a web developer.</p>
+          <p class="card-text">Earned a Bachelor of Commerce, majoring in Digital Business Management from Humber College. I had the opportunity to polish my marketing & user experience skills, which I also plan to highlight in my path as a web developer. I am currently attending the Full-Stack Bootcamp at the University of Toronto to bring me up to speed.</p>
+          <div class="card-body text-center">
+            <form method="get" action="styling/Resume2020.pdf">
+              <button type="submit" class="btn btn-secondary rounded">Resume</button>
+           </form>
+            <a href="https://www.linkedin.com/in/keith-crooc/" target="_blank" class="btn rounded" id="linkedin">LinkedIn</a>
+            <a href="https://github.com/keithyyy" target="_blank" class="btn btn-dark rounded" id="github">Github</a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -45,10 +58,10 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     
        
-    <footer class="footer">
+    <!-- <footer class="footer">
 
       <div class="footer text-center py-3">© Copyright</div>      
-    </footer>
+    </footer> -->
   
   </body>
   </html>
